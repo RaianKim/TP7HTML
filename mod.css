@@ -1,0 +1,159 @@
+.labelCD {
+  background-color: #eaeaea;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20%;
+  min-width: 150%;
+  font-size: 100%;
+}
+
+
+input[type="radio"] + label{
+  transition-duration:0.5s;
+}
+input[type="radio"]:hover + label {
+  background-color: #7ebae6;
+  color: #fff;
+
+}
+
+input[type="radio"]:checked + label {
+  background-color: #5ca8e0;
+  color: #fff;
+}
+
+.form h2
+{
+  background-color: rgb(254, 229, 226);
+  margin: 5%;
+}
+
+.categoryDif{
+  display: inline-block;
+  width: 20%;
+  margin-right: 10%;
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.categoryJuego {
+  display: inline-block;
+  width: 20%;
+  margin-right: 10%;
+}
+.botonsin {
+  max-width: 50%;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.indexLay{
+  position:absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+.Logo
+{
+  width: 60px;
+}
+.IndexBack
+{
+  background:url(ImagenLogoBackround.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(18px);
+  background-position: center;
+}
+.imgIndex {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 300px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preguntaJuego
+{
+text-align: center;
+
+}
+
+.centered-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.centered-content 
+{
+  text-align: center;
+}
+
+.miColor {
+  border: 5px solid #ffffff !important;
+  background-color: rgb(214, 182, 182)!important; 
+  color: white !important;
+  transition-duration: 0.4s !important;
+}
+
+.miColor:hover {
+  border: 5px solid #ffffff !important;
+  background-color: #ffffff !important; 
+  color: rgb(214, 182, 182) !important; 
+}
+.botonesss {
+  width: auto !important;
+  min-width: 250px !important;
+  min-width: 350px !important;
+  font-size: 18px !important;
+  text-align: center;
+}
+
+.botonesss.active {
+  background-color: #17a2b8; 
+  color: white;
+  border-color: #17a2b8;
+}
+
+.LogoLayout
+{
+  width: 100px; 
+}
+.container-perso
+{
+  display: flex !important;
+  justify-content: center!important;
+  text-align: center!important;
+  align-content: center!important;
+  flex-direction:column!important;
+  flex-wrap: wrap !important;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.RespBack
+{
+background-color: rgb(25, 135, 84);
+}
+.Back
+{
+background-color: rgb(247, 181, 161);
+}
+.mt-8
+{
+margin-top: 8rem;
+}

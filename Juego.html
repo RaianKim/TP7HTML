@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="mod.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body class="Back">
+  <header class="indexLay">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="  background-color: rgb(214, 182, 182)" >
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">
+                <img class="LogoLayout" src="ImagenLogoIncompleto.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+                <ul class="nav justify-content-end ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark nav-link-outline-dark" href="ConfigurarJuego.html"><button type="button" class="btn miColor">Configurar juego</button></a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+</header>
+<div class="mt-8">
+    <div class="container ">
+        <main >
+            <div class="mb-3">
+               
+                <div class="float-start">
+                    <p>Nombre de usuario: Usuario123</p>
+                </div>
+         
+                <div class="float-end">
+                    <p>Puntaje actual: 0</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            <div class="mb-3">
+                <div class="preguntaJuego">
+        
+                <h3>Pregunta 1</h3>
+                <p>Enunciado de la pregunta...</p>
+            </div>
+            </div>
+            
+            <div class="mb-3">
+                <form method="post">
+                    <div class="text-center">
+                        <div class="btn-group" data-toggle="buttons">
+                            <div class="row">
+                                <div class="col-md-6 mt-3">
+                                    <label class="btn btn-primary btn-lg botonesss">
+                                        <input type="radio" name="opcion" value="opcionA" required>
+                                        <p>Opción A</p>
+                                    </label>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <label class="btn btn-primary btn-lg botonesss">
+                                        <input type="radio" name="opcion" value="opcionB" required>
+                                        <p>Opción B</p>
+                                    </label>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <label class="btn btn-primary btn-lg botonesss">
+                                        <input type="radio" name="opcion" value="opcionC" required>
+                                        <p>Opción C</p>
+                                    </label>
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <label class="btn btn-primary btn-lg botonesss">
+                                        <input type="radio" name="opcion" value="opcionD" required>
+                                        <p>Opción D</p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-success" formaction="Respuesta.html">Responder</button>
+                    </div>
+                </form>
+            </div>
+            
+        </main>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

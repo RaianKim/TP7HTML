@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="mod.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configurar juego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body class="Back">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="  background-color: rgb(214, 182, 182)" >
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">
+                <img class="LogoLayout" src="ImagenLogoIncompleto.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+                <ul class="nav justify-content-end ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark nav-link-outline-dark" href="ConfigurarJuego.html"><button type="button" class="btn miColor">Configurar juego</button></a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+</header>
+<div class="container container-perso">
+    <main role="main" class="pb-3">
+        <h1>Configurar Juego</h1>
+    </main>
+
+    <form class="form">
+      <h2>Dificultad</h2>
+      <div class="categoryDif">
+        <input type="radio" id="categoria00" name="dificultad" value="-1" required>
+        <label class="btn-lg labelCD" for="categoria00">Todos</label>
+      </div>
+        <div class="categoryDif">
+          <input type="radio" id="categoria11" name="dificultad" value="1" required>
+          <label class="btn-lg labelCD" for="categoria11">Facil</label>
+        </div>
+        <div class="categoryDif">
+          <input type="radio" id="categoria22" name="dificultad" value="2" required>
+          <label class="btn-lg labelCD" for="categoria22">Normal</label>
+        </div>
+        <div class="categoryDif">
+          <input type="radio" id="categoria33" name="dificultad" value="3" required>
+          <label class="btn-lg labelCD" for="categoria33">Dificil</label>
+        </div>
+        <h2>Categoria</h2>
+      <div class="categoryJuego">
+        <input type="radio" id="categoria1" name="categorias" value="categoria1" required>
+        <label class="labelCD" for="categoria1">Geografia</label>
+      </div>
+      <div class="categoryJuego">
+        <input type="radio" id="categoria2" name="categorias" value="categoria2" required>
+        <label class="labelCD" for="categoria2">Historia</label>
+      </div>
+      <div class="categoryJuego">
+        <input type="radio" id="categoria3" name="categorias" value="categoria3" required>
+        <label class="labelCD" for="categoria3">Deportes</label>
+      </div>
+      <div class="categoryJuego">
+        <input type="radio" id="categoria4" name="categorias" value="categoria4" required>
+        <label class="labelCD" for="categoria4">Arte</label>
+      </div>
+      <div class="categoryJuego">
+        <input type="radio" id="categoria5" name="categorias" value="categoria5">
+        <label class="labelCD" for="categoria5">Ciencias</label>
+      </div>
+    
+            <div >
+                <button type="submit" formaction="Juego.html" class="botonsin">Iniciar Juego</button>
+            </div>
+            </form>
+    </div>
+  </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
